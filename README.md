@@ -10,6 +10,8 @@ Double-click `start.command`, or:
 cd ~/ExamForge && npm start   # http://localhost:4317
 ```
 
+To get a Mac app (with its own icon, in its own window), run `scripts/make-mac-app.sh`. That installs **ExamForge.app** in `/Applications`, which starts the local server when needed and opens ExamForge without browser tabs or an address bar (via Chrome, Edge or Brave if installed). Keep the ExamForge folder where it was when you built the app.
+
 Requires Node 18+. Under **Settings**, pick how ExamForge talks to Claude:
 
 - **My Claude subscription** (the default when no API key is set): runs through the locally installed [Claude Code](https://claude.com/claude-code) `claude` command with your Claude plan. There are no extra charges, but it counts toward your plan's usage limits. Fable 5.1 needs paid usage credits on a plan, so Opus 5.5 does every stage by default.
